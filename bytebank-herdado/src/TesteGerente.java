@@ -19,7 +19,8 @@ public class TesteGerente {
 		boolean autenticou = gerente.autentica(2222);
 		System.out.println(autenticou);
 		
-		
+		Gerente gerente3 = new Gerente();
+		gerente3.setSenha(1234);
 		
 	}
 }
