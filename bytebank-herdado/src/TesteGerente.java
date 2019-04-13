@@ -19,11 +19,6 @@ public class TesteGerente {
 		boolean autenticou = gerente.autentica(2222);
 		System.out.println(autenticou);
 		
-		boolean verifica = gerente2.autentica(2121);
-		System.out.println(verifica);
-
-		Gerente gerente3 = new Gerente();
-		gerente3.autentica(2121);
 		
 		
 	}
