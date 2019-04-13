@@ -8,6 +8,7 @@ public class TesteGerente {
 		gerente.setSalario(5000.0);
 		
 		Gerente gerente2 = new Gerente();
+		gerente2.setNome("Maria");
 		gerente2.autentica(5555);
 		
 		System.out.println(gerente.getNome());
