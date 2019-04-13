@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Danilo Henrique\eclipse-workspace\alura-git\bytebank-herdado"/>
+		<item value="C:\Users\Danilo Henrique\eclipse-workspace\bytebank"/>
+		<item value="C:\Users\Danilo Henrique\Downloads\projeto-biblioteca-java-master"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\Danilo Henrique\Google Drive\Alura\bytebank-herdado.zip"/>
+			<item value="C:\Users\Danilo Henrique\Google Drive\Alura\bytebank-encapsulado.zip"/>
+			<item value="C:\Users\Danilo Henrique\Google Drive\Alura\bytebank.zip"/>
+			<item value="C:\Users\Danilo Henrique\Downloads\Curso-Java-parte-2-Introdu-o-Orienta-o-a-Objetos-capitulo2.zip"/>
+			<item value="C:\Users\Danilo Henrique\Downloads\1001-servlet-parte2-inicial.zip"/>
+		</list>
+	</section>
+</section>

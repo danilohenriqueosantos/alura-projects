@@ -1,0 +1,4 @@
+127.0.0.1 - - [16/Mar/2019:17:21:40 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [16/Mar/2019:17:21:54 -0300] "GET /gerenciador/novaEmpresa HTTP/1.1" 405 1116
+0:0:0:0:0:0:0:1 - - [16/Mar/2019:17:23:03 -0300] "GET /gerenciador/listaEmpresa HTTP/1.1" 404 1114
+0:0:0:0:0:0:0:1 - - [16/Mar/2019:17:23:13 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 548
