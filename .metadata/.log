@@ -1229,3 +1229,6 @@ java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/Co
 	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
 	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-15 12:44:48.038
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
