@@ -95,3 +95,1137 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.eclipse.oomph.setup.ui 1 0 2019-04-15 12:22:35.598
 !MESSAGE Setup tasks were performed during startup updating 1 preference. See 'C:\Users\Danilo\eclipse\jee-2019-03\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.174
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.182
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.191
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.classpath
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.197
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.classpath
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/.classpath
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.206
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.project
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.213
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.project
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/.project
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.221
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.settings/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.228
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.settings/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/.settings/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.235
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.242
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.250
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.257
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/bin/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.265
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/Cliente.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.271
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/Cliente.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/bin/Cliente.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.279
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/Conta.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.286
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/Conta.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/bin/Conta.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.293
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/TesteContas.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.300
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/TesteContas.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/bin/TesteContas.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.307
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.314
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/src/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.321
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/Cliente.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.328
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/Cliente.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/src/Cliente.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.335
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/Conta.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.342
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/Conta.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/src/Conta.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.349
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/TesteContas.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.355
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/TesteContas.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/src/TesteContas.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.362
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.369
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.376
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.classpath
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.383
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.classpath
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/.classpath
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.391
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.project
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.398
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.project
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/.project
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.405
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.settings/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.412
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.settings/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/.settings/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.419
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.settings/org.eclipse.jdt.core.prefs
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.426
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.settings/org.eclipse.jdt.core.prefs
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/.settings/org.eclipse.jdt.core.prefs
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.433
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.439
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.446
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Administrador.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.453
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Administrador.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Administrador.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.460
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/AutenticacaoUtil.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.467
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/AutenticacaoUtil.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/AutenticacaoUtil.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.474
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Autenticavel.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.481
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Autenticavel.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Autenticavel.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.488
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Cliente.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.495
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Cliente.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Cliente.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.502
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/ControleBonificacao.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.509
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/ControleBonificacao.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/ControleBonificacao.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.516
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Designer.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.523
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Designer.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Designer.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.530
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/EditorVideo.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.536
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/EditorVideo.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/EditorVideo.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.544
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Funcionario.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.551
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Funcionario.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Funcionario.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.558
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Gerente.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.565
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Gerente.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Gerente.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.572
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/SistemaInterno.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.579
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/SistemaInterno.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/SistemaInterno.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.586
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteFuncionario.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.593
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteFuncionario.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/TesteFuncionario.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.601
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteGerente.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.608
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteGerente.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/TesteGerente.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.615
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteReferencias.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.622
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteReferencias.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/TesteReferencias.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.629
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteSistema.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.636
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteSistema.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/TesteSistema.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.644
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.651
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.658
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Gerente.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.664
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Gerente.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/Gerente.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.671
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Designer.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.678
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Designer.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/Designer.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.686
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/EditorVideo.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.693
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/EditorVideo.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/EditorVideo.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.700
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteReferencias.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.707
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteReferencias.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/TesteReferencias.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.714
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteGerente.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.721
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteGerente.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/TesteGerente.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.729
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Funcionario.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.735
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Funcionario.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/Funcionario.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.743
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteFuncionario.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.750
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteFuncionario.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/TesteFuncionario.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.757
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/ControleBonificacao.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:13.763
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/ControleBonificacao.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/ControleBonificacao.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:1119)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.lambda$6(WizardProjectsImportPage.java:905)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.211
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.219
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.227
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.classpath
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.234
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.classpath
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/.classpath
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.241
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.project
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.248
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.project
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/.project
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.256
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.settings/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.263
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.settings/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/.settings/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.270
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.277
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.284
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.291
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/bin/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.298
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/Cliente.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.305
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/Cliente.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/bin/Cliente.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.312
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/Conta.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.318
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/Conta.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/bin/Conta.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.325
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/TesteContas.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.332
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/bin/TesteContas.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/bin/TesteContas.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.339
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.346
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/src/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.354
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/Cliente.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.361
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/Cliente.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/src/Cliente.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.368
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/Conta.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.375
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/Conta.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/src/Conta.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.382
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/TesteContas.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.388
+!MESSAGE Entry is outside of the target dir: bytebank-encapsulado/src/TesteContas.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-encapsulado/src/TesteContas.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.395
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.403
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.409
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.classpath
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.416
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.classpath
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/.classpath
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.424
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.project
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.431
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.project
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/.project
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.438
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.settings/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.444
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.settings/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/.settings/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.451
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.settings/org.eclipse.jdt.core.prefs
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.458
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/.settings/org.eclipse.jdt.core.prefs
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/.settings/org.eclipse.jdt.core.prefs
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.465
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.471
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.478
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Administrador.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.485
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Administrador.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Administrador.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.492
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/AutenticacaoUtil.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.498
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/AutenticacaoUtil.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/AutenticacaoUtil.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.505
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Autenticavel.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.512
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Autenticavel.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Autenticavel.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.519
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Cliente.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.525
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Cliente.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Cliente.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.532
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/ControleBonificacao.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.539
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/ControleBonificacao.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/ControleBonificacao.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.546
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Designer.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.553
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Designer.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Designer.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.560
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/EditorVideo.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.566
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/EditorVideo.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/EditorVideo.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.573
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Funcionario.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.580
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Funcionario.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Funcionario.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.586
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Gerente.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.593
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/Gerente.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/Gerente.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.600
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/SistemaInterno.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.606
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/SistemaInterno.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/SistemaInterno.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.613
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteFuncionario.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.620
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteFuncionario.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/TesteFuncionario.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.627
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteGerente.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.633
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteGerente.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/TesteGerente.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.640
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteReferencias.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.647
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteReferencias.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/TesteReferencias.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.653
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteSistema.class
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.660
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/bin/TesteSistema.class
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/bin/TesteSistema.class
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.667
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.674
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.681
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Gerente.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.687
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Gerente.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/Gerente.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.694
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Designer.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.700
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Designer.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/Designer.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.707
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/EditorVideo.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.714
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/EditorVideo.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/EditorVideo.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.720
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteReferencias.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.727
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteReferencias.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/TesteReferencias.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.735
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteGerente.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.742
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteGerente.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/TesteGerente.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.749
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Funcionario.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.756
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/Funcionario.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/Funcionario.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.763
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteFuncionario.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.769
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/TesteFuncionario.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/TesteFuncionario.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.776
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/ControleBonificacao.java
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-15 12:27:24.783
+!MESSAGE Entry is outside of the target dir: bytebank-herdado/src/ControleBonificacao.java
+!STACK 0
+java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/ControleBonificacao.java
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.initialize(ZipLeveledStructureProvider.java:236)
+	at org.eclipse.ui.internal.wizards.datatransfer.ZipLeveledStructureProvider.getChildren(ZipLeveledStructureProvider.java:121)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard$ExpandArchiveIntoFilesystemOperation.run(SmartImportWizard.java:119)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportWizard.expandArchive(SmartImportWizard.java:325)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$4$1.run(SmartImportRootWizardPage.java:393)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
