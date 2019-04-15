@@ -1,5 +1,5 @@
 
-public interface Autenticavel {
+public abstract interface Autenticavel {
 
 //	private int senha;
 
