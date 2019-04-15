@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;novoNumero&apos; in &apos;Conta.setNumero(...)&apos; to &apos;numero&apos;&#x0D;&#x0A;- Original project: &apos;bytebank-encapsulado&apos;&#x0D;&#x0A;- Original element: &apos;Conta.setNumero(int).novoNumero&apos;&#x0D;&#x0A;- Renamed element: &apos;novoNumero&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;novoNumero&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Conta.java[Conta~setNumero~I@novoNumero!301!314!305!314!I!0!true" name="numero" references="true" stamp="1554953283950" version="1.0"/>
-</session>
