@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Danilo Henrique\eclipse-workspace\alura-projetos\bytebank-herdado"/>
 		<item value="C:\Users\Danilo Henrique\eclipse-workspace\alura-git\bytebank-herdado"/>
 		<item value="C:\Users\Danilo Henrique\eclipse-workspace\bytebank"/>
 		<item value="C:\Users\Danilo Henrique\Downloads\projeto-biblioteca-java-master"/>
@@ -8,11 +9,13 @@
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
-		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Danilo Henrique\eclipse-workspace\alura-projetos\bytebank-herdado"/>
 			<item value=""/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
 			<item value="C:\Users\Danilo Henrique\Google Drive\Alura\bytebank-herdado.zip"/>
 			<item value="C:\Users\Danilo Henrique\Google Drive\Alura\bytebank-encapsulado.zip"/>
 			<item value="C:\Users\Danilo Henrique\Google Drive\Alura\bytebank.zip"/>

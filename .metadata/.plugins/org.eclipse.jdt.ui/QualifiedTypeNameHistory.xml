@@ -2,10 +2,11 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="Cliente"/>
 <fullyQualifiedTypeName name="Conta"/>
-<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.awt.geom.NoninvertibleTransformException"/>
 <fullyQualifiedTypeName name="ControleBonificacao"/>
-<fullyQualifiedTypeName name="Gerente"/>
 <fullyQualifiedTypeName name="Funcionario"/>
+<fullyQualifiedTypeName name="Gerente"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="ClasseBase"/>
 </qualifiedTypeNameHistroy>
