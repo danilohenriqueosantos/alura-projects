@@ -1232,3 +1232,6 @@ java.io.IOException: Entry is outside of the target dir: bytebank-herdado/src/Co
 
 !ENTRY org.eclipse.jface.text 2 0 2019-04-15 12:44:48.038
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.equinox.security 1 0 2019-04-15 12:48:26.374
+!MESSAGE New keyring password generated. 
