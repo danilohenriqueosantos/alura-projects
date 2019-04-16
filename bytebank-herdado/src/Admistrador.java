@@ -1,8 +1,8 @@
 
 public class Admistrador extends Funcionario implements Autenticavel {
-	
+
 	private int senha = 2222;
-	
+
 	@Override
 	public double getBonificacao() {
 		return 50;
@@ -15,9 +15,11 @@ public class Admistrador extends Funcionario implements Autenticavel {
 
 	@Override
 	public boolean autentica(int senha) {
+
 		if (this.senha == senha) {
 			return true;
 		}
+
 		return false;
 	}
 

@@ -1,6 +1,7 @@
 public class Gerente extends Funcionario implements Autenticavel {
-
+	
 	private int senha = 5555;
+
 
 	@Override
 	public void setSenha(int senha) {
