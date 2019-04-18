@@ -20,4 +20,12 @@ public class Fluxo {
 		}
 		System.out.println("Fim do metodo2");
 	}
+	
+	public static void metodo3() {
+		System.out.println("Ini do metodo2");
+		for (int i = 1; i <= 5; i++) {
+			System.out.println(i);
+		}
+		System.out.println("Fim do metodo2");
+	}
 }

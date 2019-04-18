@@ -1,4 +1,5 @@
 /Admistrador.class
+/AutenticacaoUtil.class
 /Autenticavel.class
 /Cliente.class
 /ControleBonificacao.class
@@ -11,4 +12,3 @@
 /TesteGerente.class
 /TesteReferencias.class
 /TesteSistema.class
-/AutenticacaoUtil.class
