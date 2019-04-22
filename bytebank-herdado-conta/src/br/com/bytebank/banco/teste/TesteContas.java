@@ -1,7 +1,7 @@
-package br.com.alura.bytebank.banco.teste;
+package br.com.bytebank.banco.teste;
 
-import br.com.alura.bytebank.banco.modelo.ContaCorrente;
-import br.com.alura.bytebank.banco.modelo.ContaPoupanca;
+import br.com.bytebank.banco.modelo.ContaCorrente;
+import br.com.bytebank.banco.modelo.ContaPoupanca;
 
 public class TesteContas {
 
