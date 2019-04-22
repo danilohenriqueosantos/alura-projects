@@ -1,4 +1,4 @@
-package modelo;
+package br.com.alura.bytebank.banco.modelo;
 
 public class CalculadorDeImposto {
 

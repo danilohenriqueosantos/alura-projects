@@ -1,8 +1,8 @@
-package teste;
+package br.com.alura.bytebank.banco.teste;
 
-import modelo.CalculadorDeImposto;
-import modelo.ContaCorrente;
-import modelo.SeguraDeVida;
+import br.com.alura.bytebank.banco.modelo.CalculadorDeImposto;
+import br.com.alura.bytebank.banco.modelo.ContaCorrente;
+import br.com.alura.bytebank.banco.modelo.SeguraDeVida;
 
 public class TesteTributaveis {
 
