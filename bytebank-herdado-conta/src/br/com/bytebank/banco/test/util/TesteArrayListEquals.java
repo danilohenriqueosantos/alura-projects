@@ -9,6 +9,12 @@ public class TesteArrayListEquals {
 
 	public static void main(String[] args) {
 		
+//		ContaCorrente contaCorrente = new ContaCorrente(11, 22);
+//		ContaCorrente contaCorrente2 = new ContaCorrente(11, 22);
+//		
+//		boolean igual = contaCorrente.ehIgual(contaCorrente2);
+//		System.out.println(igual);
+		
 		ArrayList<Conta> lista = new ArrayList<Conta>();
 		
 		ContaCorrente contaCorrente = new ContaCorrente(111, 222);
@@ -32,11 +38,7 @@ public class TesteArrayListEquals {
 		
 		System.out.println(lista.size());
 		
-		for (int i = 0; i < lista.size(); i ++) {
-			System.out.println(lista.get(i));
-		}
-		
-		for (Conta conta : lista) {
+			for (Conta conta : lista) {
 			System.out.println(conta);
 			
 		}
