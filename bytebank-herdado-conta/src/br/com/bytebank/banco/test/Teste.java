@@ -30,6 +30,8 @@ public class Teste {
 		
 		Conta ref3 = guardador.getReferencia(0);
 		System.out.println(ref3);
+		
+		
 	}
 
 }
