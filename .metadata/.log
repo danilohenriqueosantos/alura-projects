@@ -4155,3 +4155,6 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 >>>>>>> a6e50a77cc0667caad647a24e1170e1acd57b4ba
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-23 20:27:58.220
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
