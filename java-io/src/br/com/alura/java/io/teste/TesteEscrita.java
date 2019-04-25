@@ -11,7 +11,7 @@ public class TesteEscrita {
 
 	public static void main(String[] args) throws IOException {
 
-		//Fluxo de entrada
+		//Fluxo de saída
 		
 		OutputStream fos = new FileOutputStream("lorem2.txt");
 		Writer osw = new OutputStreamWriter(fos);
