@@ -7,6 +7,6 @@ public class TestaInversaoDeNumeros {
 	public static void main(String[] args) {
 		
 		InverteNumeros testaInversaoDeNumeros = new InverteNumeros();
-		testaInversaoDeNumeros.inverte(2, 3);
+		testaInversaoDeNumeros.inverte(3, 4);
 	}
 }
