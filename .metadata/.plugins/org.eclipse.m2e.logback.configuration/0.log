@@ -1422,3 +1422,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration ProdutoTest referen
 2019-04-29 17:52:07,842 [Worker-86: Launching lojaweb jetty] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Danilo\eclipse-workspace\lojaweb
 2019-04-29 17:52:07,848 [Worker-86: Launching lojaweb jetty] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
 2019-04-29 17:54:23,645 [Worker-91: Launching lojaweb jetty] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Danilo\eclipse-workspace\lojaweb
+2019-04-29 17:54:23,652 [Worker-91: Launching lojaweb jetty] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B jetty:run
