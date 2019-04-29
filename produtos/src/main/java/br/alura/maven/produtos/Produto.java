@@ -11,4 +11,12 @@ public class Produto {
 		this.preco = preco;
 	}
 
+	public String getNome() {
+		return this.nome;
+	}
+
+	public double getPreco() {
+		return this.preco;
+	}
+
 }
