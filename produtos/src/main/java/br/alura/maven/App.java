@@ -1,4 +1,4 @@
-package br.alura.maven.produtos;
+package br.alura.maven;
 
 /**
  * Hello world!

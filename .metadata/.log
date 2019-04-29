@@ -4848,3 +4848,12 @@ Contains: Missing antlr:antlr:jar:javadoc:2.7.7
 !MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
 !SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-04-29 13:17:18.799
 !MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:16:41.530
+!MESSAGE The POM for org.jacoco:jacoco-maven-plugin:jar:0.8.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:16:41.546
+!MESSAGE The POM for org.jacoco:jacoco-maven-plugin:jar:0.8.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:16:41.560
+!MESSAGE The POM for org.jacoco:jacoco-maven-plugin:jar:0.8.4-SNAPSHOT is missing, no dependency information available

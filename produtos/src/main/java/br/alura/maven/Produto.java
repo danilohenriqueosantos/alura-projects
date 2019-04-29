@@ -1,4 +1,4 @@
-package br.alura.maven.produtos;
+package br.alura.maven;
 
 public class Produto {
 
@@ -17,6 +17,10 @@ public class Produto {
 
 	public double getPreco() {
 		return this.preco;
+	}
+
+	public double getPrecoComImposto() {
+		return this.preco * 1.10;
 	}
 
 }

@@ -1,4 +1,4 @@
-package br.alura.maven.produtos;
+package br.alura.maven;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
