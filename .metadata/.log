@@ -4857,3 +4857,240 @@ Contains: Missing antlr:antlr:jar:javadoc:2.7.7
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:16:41.560
 !MESSAGE The POM for org.jacoco:jacoco-maven-plugin:jar:0.8.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:47:57.099
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:47:57.127
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-04-29 16:48:00.656
+!MESSAGE Launch configuration ProdutoTest references closed project produtos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ProdutoTest references closed project produtos
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1839)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1711)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-04-29 16:48:00.656
+!MESSAGE Launch configuration ProdutoTest references closed project produtos
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-04-29 16:48:00.669
+!MESSAGE Launch configuration ProdutoTest references closed project produtos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ProdutoTest references closed project produtos
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1839)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1711)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-04-29 16:48:00.669
+!MESSAGE Launch configuration ProdutoTest references closed project produtos
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-04-29 16:48:00.691
+!MESSAGE Launch configuration ProdutoTest references closed project produtos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ProdutoTest references closed project produtos
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1839)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1711)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-04-29 16:48:00.691
+!MESSAGE Launch configuration ProdutoTest references closed project produtos
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:49.652
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:49.671
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:49.679
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:49.686
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:50.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:50.310
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:50.331
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:50.339
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:50.350
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:50.364
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:50.376
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.238
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.250
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.261
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.271
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.798
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.810
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.820
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.827
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.834
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.848
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:52:59.857
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:48.774
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:48.785
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:48.791
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:48.801
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:49.320
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:49.330
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:49.344
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:49.356
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:49.362
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:49.368
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.17-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.17-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:49.377
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:50.445
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:50.456
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:56.008
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 16:56:56.023
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 17:00:19.672
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 17:00:19.693
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 17:00:19.710
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 17:00:27.787
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 17:00:27.800
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 17:00:27.819
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 17:00:29.031
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 17:00:29.039
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 17:04:27.846
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-04-29 17:04:27.865
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
