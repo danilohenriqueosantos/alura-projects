@@ -1,4 +1,6 @@
-package br.com.exercicios.modelos;
+package br.com.exercicios.testes;
+
+import br.com.exercicios.modelos.MediaAluno;
 
 public class TestaMediaAluno {
 
