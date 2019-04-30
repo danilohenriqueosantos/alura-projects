@@ -1,5 +1,7 @@
 package br.alura.maven.produtos;
 
+import br.alura.maven.Produto;
+
 /**
  * Hello world!
  *
