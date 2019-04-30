@@ -5488,3 +5488,6 @@ org.eclipse.core.runtime.CoreException: Launch configuration ProdutoTest referen
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-04-30 13:03:45.569
 !MESSAGE Launch configuration ProdutoTest references closed project produtos
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-04-30 13:07:40.338
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
