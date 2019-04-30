@@ -5491,3 +5491,6 @@ org.eclipse.core.runtime.CoreException: Launch configuration ProdutoTest referen
 
 !ENTRY org.eclipse.wst.server.discovery 1 0 2019-04-30 13:07:40.338
 !MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-30 14:51:29.566
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
