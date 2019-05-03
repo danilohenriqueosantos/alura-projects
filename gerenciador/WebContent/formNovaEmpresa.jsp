@@ -1,5 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<c:url value="/novaEmpresa" var="linkServletNovaEmpresa"/> 
+<c:url value="/entrada" var="linkEntradaServlet"/> 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,9 +14,11 @@
 
 	
 
-	<form action="${linkServletNovaEmpresa}" method="POST">
+	<form action="${linkEntradaServlet}" method="POST">
 		Nome: <input type="text" name="nome" id=""> 
 		Data Abertura: <input type="text" name="data" id=""> 
+		
+		<input type="hidden" name="acao" value="NovaEmpresa">
 		<input type="submit" />
 
 	</form>
