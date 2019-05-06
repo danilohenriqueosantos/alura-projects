@@ -12,14 +12,14 @@
 
 <body>
 
-	<c:import url="logout-parcial.jsp"></c:import>
 	
 
 	<form action="${linkEntradaServlet}" method="POST">
-		Nome: <input type="text" name="nome" id=""> 
-		Data Abertura: <input type="text" name="data" id=""> 
+	
+		Login: <input type="text" name="login" id=""> 
+		Senha: <input type="password" name="senha" id=""> 
 		
-		<input type="hidden" name="acao" value="NovaEmpresa">
+		<input type="hidden" name="acao" value="Login">
 		<input type="submit" />
 
 	</form>
