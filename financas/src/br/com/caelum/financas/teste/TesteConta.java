@@ -10,6 +10,7 @@ public class TesteConta {
 	public static void main(String[] args) {
 		
 		Conta conta = new Conta();
+		conta.setId(1);
 		conta.setTitular("Maria");
 		conta.setAgencia("123");
 		conta.setBanco("Banco do Brasil");
@@ -19,7 +20,9 @@ public class TesteConta {
 		EntityManager em = new JPAUtil().getEntityManager();
 		
 		em.getTransaction().begin();
-		em.persist(conta);
+		conta = em.find(Conta.class, 1);
+		
+		em.remove(conta);
 		
 		conta.setBanco("Bradesco");
 		
