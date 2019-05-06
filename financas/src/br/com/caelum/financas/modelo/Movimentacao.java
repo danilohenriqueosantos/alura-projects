@@ -9,26 +9,28 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
 public class Movimentacao {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	
+
 	private BigDecimal valor;
-	
+
 	@Enumerated(EnumType.STRING)
 	private TipoMovimentacao tipo;
-	
+
 	@Temporal(TemporalType.TIMESTAMP)
 	private Calendar data;
-	
+
 	private String descricao;
-	
+
+	@ManyToOne
 	private Conta conta;
 
 	public Integer getId() {
@@ -70,7 +72,13 @@ public class Movimentacao {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	
-	
+
+	public Conta getConta() {
+		return conta;
+	}
+
+	public void setConta(Conta conta) {
+		this.conta = conta;
+	}
 
 }
