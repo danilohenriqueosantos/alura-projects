@@ -10,7 +10,7 @@ public class ClienteWebService {
 	public static void main(String[] args) throws ClientProtocolException, IOException {
 
 		String conteudoDaResposta = Request.Post("http://localhost:8080/gerenciador/empresas")
-		.addHeader("Accept", "application/json")
+		.addHeader("Accept", "application/xml")
 		.execute().returnContent()
 		.asString();
 
