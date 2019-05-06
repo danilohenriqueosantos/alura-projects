@@ -10,9 +10,9 @@ public class TesteConta {
 	public static void main(String[] args) {
 		
 		Conta conta = new Conta();
-		conta.setTitular("Danilo");
+		conta.setTitular("Maria");
 		conta.setAgencia("123");
-		conta.setBanco("Santander");
+		conta.setBanco("Banco do Brasil");
 		conta.setNumero("456");
 		
 		
@@ -20,6 +20,10 @@ public class TesteConta {
 		
 		em.getTransaction().begin();
 		em.persist(conta);
+		
+		conta.setBanco("Bradesco");
+		
+		
 		em.getTransaction().commit();
 		
 		em.close();
