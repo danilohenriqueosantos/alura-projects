@@ -252,3 +252,8 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.eclipse.jface.text 2 0 2019-05-06 12:44:21.173
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jst.server.tomcat.ui 4 0 2019-05-06 15:29:52.612
+!MESSAGE An error occurred while cleaning Tomcat v9.0 Server at localhost work directory.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2019-05-06 15:29:52.612
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v9.0 Server at localhost-config. The Servers project is closed.
