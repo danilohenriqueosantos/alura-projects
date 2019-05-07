@@ -257,6 +257,7 @@ org.eclipse.swt.SWTException: Widget is disposed
 !MESSAGE An error occurred while cleaning Tomcat v9.0 Server at localhost work directory.
 !SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2019-05-06 15:29:52.612
 !MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v9.0 Server at localhost-config. The Servers project is closed.
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.jst.j2ee 4 0 2019-05-06 20:15:08.650
 !MESSAGE No IModelProvider exists for project P/gerenciador of version: null
@@ -451,3 +452,5 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+=======
+>>>>>>> 8575d85b4e17d1b3e7dbce308af6c8cc5f727585
