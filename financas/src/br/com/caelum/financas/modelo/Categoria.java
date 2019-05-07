@@ -12,6 +12,15 @@ public class Categoria {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String nome;
+	
+	@Deprecated
+	public Categoria() {
+	}
+	
+	public Categoria(String nome) {
+		this.nome = nome;
+	}
+	
 	public Integer getId() {
 		return id;
 	}
