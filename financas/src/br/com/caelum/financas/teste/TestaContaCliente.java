@@ -17,7 +17,7 @@ public class TestaContaCliente {
 		
 		
 		Cliente cliente2 = new Cliente();
-		cliente2.setNome("Manuo");
+		cliente2.setNome("Manuco");
 		cliente2.setEndereco("Rua: Fulano de tal, 321");
 		cliente2.setProfissao("Professora");
 		
