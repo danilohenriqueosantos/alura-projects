@@ -3,7 +3,6 @@
 	<name>Servers</name>
 	<comment></comment>
 	<projects>
-		<project>projeto-jpa-2</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>
