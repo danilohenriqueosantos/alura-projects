@@ -49,7 +49,9 @@ public class JpaConfigurator {
 
 		props.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5InnoDBDialect");
 		props.setProperty("hibernate.show_sql", "true");
-		props.setProperty("hibernate.hbm2ddl.auto", "update");
+		props.setProperty("hibernate.hbm2ddl.auto", "create-drop");
+		props.setProperty("hibernate.hbm2ddl.use_second_level_cache", "true");
+		props.setProperty("hibernate.hbm2ddl.region.factory_class", "org.hibernate.cache.ehcache.SingletonEhcacheRegionFactory");
 
 		entityManagerFactory.setJpaProperties(props);
 		return entityManagerFactory;
