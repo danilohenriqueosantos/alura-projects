@@ -23,6 +23,7 @@ public class AppWebConfiguration {
 		return resolver;
 	}
 
+	@Bean
 	public MessageSource messageSource() {
 		ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
 		messageSource.setBasename("/WEB-INF/message");
