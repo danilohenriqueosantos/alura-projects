@@ -1,6 +1,7 @@
 package br.com.casadocodigo.loja.models;
 
 
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.List;
 
@@ -29,7 +30,7 @@ public class Produto {
 	private int paginas;
 	
 	@DateTimeFormat
-	private Calendar dataLancamento;
+	private LocalDate dataLancamento;
 
 	@ElementCollection
 	private List<Preco> precos; 
