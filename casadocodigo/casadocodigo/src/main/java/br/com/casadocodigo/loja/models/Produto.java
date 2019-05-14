@@ -1,8 +1,7 @@
 package br.com.casadocodigo.loja.models;
 
 
-import java.time.LocalDate;
-import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.ElementCollection;
@@ -30,7 +29,7 @@ public class Produto {
 	private int paginas;
 	
 	@DateTimeFormat
-	private LocalDate dataLancamento;
+	private Date dataLancamento;
 
 	@ElementCollection
 	private List<Preco> precos; 
@@ -88,11 +87,11 @@ public class Produto {
 		this.precos = precos;
 	}
 	
-	public Calendar getDataLancamento() {
+	public Date getDataLancamento() {
 		return dataLancamento;
 	}
 
-	public void setDataLancamento(Calendar dataLancamento) {
+	public void setDataLancamento(Date dataLancamento) {
 		this.dataLancamento = dataLancamento;
 	}
 
