@@ -28,7 +28,7 @@
 			<td><a href="${s:mvcUrl('PC#detalhe').arg(0, produto.id).build()}">${produto.titulo}</a></td>
 			<td>${produto.descricao}</td>
 			<td>${produto.paginas}</td>
-			<td><fmt:formatDate value="${produto.dataLancamento}" pattern="dd/MM/yyyy"/></td>
+			<td><fmt:formatDate value="${produto.dataLancamento.time}" pattern="dd/MM/yyyy"/></td>
 		</tr>
 		</c:forEach>
 	</table>

@@ -1,7 +1,7 @@
 package br.com.casadocodigo.loja.models;
 
 
-import java.util.Date;
+import java.util.Calendar;
 import java.util.List;
 
 import javax.persistence.ElementCollection;
@@ -29,7 +29,7 @@ public class Produto {
 	private int paginas;
 	
 	@DateTimeFormat
-	private Date dataLancamento;
+	private Calendar dataLancamento;
 
 	@ElementCollection
 	private List<Preco> precos; 
@@ -87,11 +87,11 @@ public class Produto {
 		this.precos = precos;
 	}
 	
-	public Date getDataLancamento() {
+	public Calendar getDataLancamento() {
 		return dataLancamento;
 	}
 
-	public void setDataLancamento(Date dataLancamento) {
+	public void setDataLancamento(Calendar dataLancamento) {
 		this.dataLancamento = dataLancamento;
 	}
 
@@ -108,5 +108,28 @@ public class Produto {
 		return "Produto [titulo=" + titulo + ", descricao=" + descricao + ", paginas=" + paginas + "]";
 	}
 
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + id;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Produto other = (Produto) obj;
+		if (id != other.id)
+			return false;
+		return true;
+	}
+
+	
 
 }
