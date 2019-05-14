@@ -24,9 +24,9 @@
 							<tr>
 								<td>Cache</td>
 								<!-- Hit -->
-								<td></td>
+								<td>${statistcs.queryCacheHintCount}</td>
 								<!-- Miss -->
-								<td></td>
+								<td>${statistcs.queryCacheMissCount}</td>
 								<! -- Conections -->
 								<td></td>
 							</tr>
