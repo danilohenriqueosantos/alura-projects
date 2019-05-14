@@ -28,7 +28,7 @@ public class AppWebConfiguration {
 		resolver.setPrefix("/WEB-INF/views/");
 		resolver.setSuffix(".jsp");
 
-		resolver.setExposeContextBeansAsAttributes(true);
+		resolver.setExposedContextBeanNames("carrinhosCompras");
 		
 		return resolver;
 	}
