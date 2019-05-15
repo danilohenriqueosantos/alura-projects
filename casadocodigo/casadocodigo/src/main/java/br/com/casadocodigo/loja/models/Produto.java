@@ -1,6 +1,6 @@
 package br.com.casadocodigo.loja.models;
 
-
+import java.math.BigDecimal;
 import java.util.Calendar;
 import java.util.List;
 
@@ -13,33 +13,31 @@ import javax.persistence.Lob;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-
-
 @Entity
 public class Produto {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	
+
 	private String titulo;
-	
+
 	@Lob
 	private String descricao;
 	private int paginas;
-	
+
 	@DateTimeFormat
 	private Calendar dataLancamento;
 
 	@ElementCollection
-	private List<Preco> precos; 
-	
+	private List<Preco> precos;
+
 	private String sumarioPath;
-	
+
 	public Produto() {
 		// TODO Auto-generated constructor stub
 	}
-	
+
 	public Produto(String titulo, String descricao, int paginas) {
 		this.titulo = titulo;
 		this.descricao = descricao;
@@ -70,23 +68,23 @@ public class Produto {
 	public void setPaginas(int paginas) {
 		this.paginas = paginas;
 	}
-	
+
 	public int getId() {
 		return id;
 	}
-	
+
 	public void setId(int id) {
 		this.id = id;
 	}
-	
+
 	public List<Preco> getPrecos() {
 		return precos;
 	}
-	
+
 	public void setPrecos(List<Preco> precos) {
 		this.precos = precos;
 	}
-	
+
 	public Calendar getDataLancamento() {
 		return dataLancamento;
 	}
@@ -98,11 +96,11 @@ public class Produto {
 	public String getSumarioPath() {
 		return sumarioPath;
 	}
-	
+
 	public void setSumarioPath(String sumarioPath) {
 		this.sumarioPath = sumarioPath;
 	}
-		
+
 	@Override
 	public String toString() {
 		return "Produto [titulo=" + titulo + ", descricao=" + descricao + ", paginas=" + paginas + "]";
@@ -130,6 +128,9 @@ public class Produto {
 		return true;
 	}
 
-	
+	public BigDecimal precoPara(TipoPreco tipoPreco) {
+
+		return precos.stream().filter(preco -> preco.getTipo().equals(tipoPreco)).findFirst().get().getValor();
+	}
 
 }
