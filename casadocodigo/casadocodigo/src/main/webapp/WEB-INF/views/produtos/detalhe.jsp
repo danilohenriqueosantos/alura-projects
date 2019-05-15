@@ -4,6 +4,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s" %>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 
 <!DOCTYPE html>
 <html>
@@ -82,11 +83,11 @@
 
 
 		<section class="buy-options clearfix">
-			<form action='<c:url value="/carrinho/add" />' method="post" class="container">
+			<form:form action="${contextPath}carrinho/add" method="post" class="container">
 				<ul id="variants" class="clearfix">
 					<input type="hidden" value="${produto.id}" name="produtoId" />
 					<c:forEach items="${produto.precos}" var="preco">
-						<li class="buy-option"><input type="radio" name="tipo"
+						<li class="buy-option"><input type="radio" name="tipoPreco"
 							class="variant-radio" id="tipo"
 							value="${preco.tipo}" checked="checked" /> <label
 							class="variant-label">${preco.tipo}</label> 
@@ -97,7 +98,7 @@
 				<button type="submit" class="submit-image icon-basket-alt"
 					alt="Compre Agora" title="${produto.titulo}"></button>
 
-			</form>
+			</form:form>
 
 		</section>
 

@@ -79,20 +79,20 @@
 				</tr>
 			</thead>
 			<tbody>
-				<c:forEach items="${carrinhoCompras.itens }" var="item">
+				<c:forEach items="${carrinhoCompras.itens}" var="item">
 					<tr>
 						<td class="cart-img-col"><img src="http://cdn.shopify.com/s/files/1/0155/7645/products/css-eficiente-featured_large.png?v=1435245145"
 							width="71px" height="100px" />
 						</td>
-						<td class="item-title">${item.produto.titulo }</td>
+						<td class="item-title">${item.produto.titulo}</td>
 						<td class="numeric-cell">${item.preco }</td>
 						<td class="quantity-input-cell">
-								<input type="number" min="0" id="quantidade" name="quantidade" value="${carrinhoCompras.getQuantidade(item) }" />
+								<input type="number" min="0" id="quantidade" name="quantidade" value="${carrinhoCompras.getQuantidade(item)}" />
 						</td>
 						<td class="numeric-cell">${carrinhoCompras.getTotal(item)}</td>
 						<td class="remove-item">
 							<form action="" method="POST">
-								<input type="image" src="${contextPath }/resources/imagens/excluir.png" 
+								<input type="image" src="${contextPath}/resources/imagens/excluir.png" 
 									alt="Excluir" title="Excluir" />
 							</form>	
 						</td>
