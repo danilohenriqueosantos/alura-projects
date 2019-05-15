@@ -10,7 +10,12 @@ import org.springframework.format.support.DefaultFormattingConversionService;
 import org.springframework.format.support.FormattingConversionService;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.support.StandardServletMultipartResolver;
+import org.springframework.web.servlet.HandlerMapping;
+import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
+import org.springframework.web.servlet.handler.AbstractHandlerMapping;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import br.com.casadocodigo.loja.controllers.HomeController;
@@ -20,7 +25,7 @@ import br.com.casadocodigo.loja.models.CarrinhoCompras;
 
 @EnableWebMvc
 @ComponentScan(basePackageClasses = { HomeController.class, ProdutoDAO.class, FileSaver.class, CarrinhoCompras.class })
-public class AppWebConfiguration {
+public class AppWebConfiguration extends WebMvcConfigurationSupport {
 
 	@Bean
 	public InternalResourceViewResolver internalResourceViewResolver() {
@@ -29,7 +34,7 @@ public class AppWebConfiguration {
 		resolver.setSuffix(".jsp");
 
 		resolver.setExposedContextBeanNames("carrinhosCompras");
-		
+
 		return resolver;
 	}
 
@@ -39,22 +44,40 @@ public class AppWebConfiguration {
 		messageSource.setBasename("/WEB-INF/message");
 		messageSource.setDefaultEncoding("UTF-8");
 		messageSource.setCacheSeconds(1);
-		
+
 		return messageSource;
 	}
-	
+
 	@Bean
 	public FormattingConversionService mvcConversionService() {
 		DefaultFormattingConversionService conversionService = new DefaultFormattingConversionService();
 		DateFormatterRegistrar registrar = new DateFormatterRegistrar();
 		registrar.setFormatter(new DateFormatter("dd/MM/yyyy"));
 		registrar.registerFormatters(conversionService);
-		
+
 		return conversionService;
 	}
-	
+
 	@Bean
 	public MultipartResolver multipartResolver() {
 		return new StandardServletMultipartResolver();
 	}
+
+	@Override
+	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+		configurer.enable();
+	}
+
+	@Override
+	public void addResourceHandlers(final ResourceHandlerRegistry registry) {
+		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+	}
+
+	@Override
+	public HandlerMapping resourceHandlerMapping() {
+		AbstractHandlerMapping handlerMapping = (AbstractHandlerMapping) super.resourceHandlerMapping();
+		handlerMapping.setOrder(-1);
+		return handlerMapping;
+	}
+
 }
