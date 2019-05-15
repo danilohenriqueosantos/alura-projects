@@ -74,6 +74,7 @@ public class AppWebConfiguration extends WebMvcConfigurationSupport {
 	}
 
 	@Override
+	@Bean
 	public HandlerMapping resourceHandlerMapping() {
 		AbstractHandlerMapping handlerMapping = (AbstractHandlerMapping) super.resourceHandlerMapping();
 		handlerMapping.setOrder(-1);
