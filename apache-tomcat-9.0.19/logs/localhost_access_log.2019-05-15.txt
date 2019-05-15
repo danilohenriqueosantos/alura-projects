@@ -349,3 +349,17 @@
 127.0.0.1 - - [15/May/2019:17:34:08 -0300] "GET /casadocodigo/resources/css/fontello.ttf?3398089 HTTP/1.1" 404 1059
 127.0.0.1 - - [15/May/2019:17:34:10 -0300] "POST /casadocodigo/carrinho/add HTTP/1.1" 302 -
 127.0.0.1 - - [15/May/2019:17:34:11 -0300] "GET /casadocodigo/carrinho HTTP/1.1" 500 6298
+127.0.0.1 - - [15/May/2019:17:39:23 -0300] "GET / HTTP/1.1" 200 11403
+127.0.0.1 - - [15/May/2019:17:39:24 -0300] "GET /casadocodigo/produtos HTTP/1.1" 200 3791
+127.0.0.1 - - [15/May/2019:17:39:26 -0300] "GET /casadocodigo/produtos/detalhe/30 HTTP/1.1" 200 8415
+127.0.0.1 - - [15/May/2019:17:39:26 -0300] "GET /casadocodigo/resources/css/museo-700.woff HTTP/1.1" 404 1059
+127.0.0.1 - - [15/May/2019:17:39:26 -0300] "GET /casadocodigo/resources/css/museo-500.woff HTTP/1.1" 404 1059
+127.0.0.1 - - [15/May/2019:17:39:26 -0300] "GET /casadocodigo/resources/css/fontello.woff?3398089 HTTP/1.1" 404 1059
+127.0.0.1 - - [15/May/2019:17:39:26 -0300] "GET /casadocodigo/resources/css/museo-500.ttf HTTP/1.1" 404 1059
+127.0.0.1 - - [15/May/2019:17:39:26 -0300] "GET /casadocodigo/resources/css/fontello.ttf?3398089 HTTP/1.1" 404 1059
+127.0.0.1 - - [15/May/2019:17:39:26 -0300] "GET /casadocodigo/resources/css/museo-700.ttf HTTP/1.1" 404 1059
+127.0.0.1 - - [15/May/2019:17:39:27 -0300] "POST /casadocodigo/carrinho/add HTTP/1.1" 302 -
+127.0.0.1 - - [15/May/2019:17:39:27 -0300] "GET /casadocodigo/carrinho HTTP/1.1" 200 7731
+127.0.0.1 - - [15/May/2019:17:39:27 -0300] "GET /casadocodigo//resources/imagens/excluir.png HTTP/1.1" 200 1518
+127.0.0.1 - - [15/May/2019:17:39:28 -0300] "GET /casadocodigo/resources/css/museo-500.woff HTTP/1.1" 404 1059
+127.0.0.1 - - [15/May/2019:17:39:28 -0300] "GET /casadocodigo/resources/css/museo-500.ttf HTTP/1.1" 404 1059
