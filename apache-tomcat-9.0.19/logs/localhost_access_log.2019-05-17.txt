@@ -478,3 +478,5 @@
 127.0.0.1 - - [17/May/2019:11:54:36 -0300] "GET /casadocodigo/resources/css/museo-700.ttf HTTP/1.1" 404 1059
 127.0.0.1 - - [17/May/2019:12:02:23 -0300] "GET / HTTP/1.1" 200 11403
 127.0.0.1 - - [17/May/2019:12:02:26 -0300] "GET /casadocodigo/produtos/5 HTTP/1.1" 404 1143
+127.0.0.1 - - [17/May/2019:12:04:37 -0300] "GET / HTTP/1.1" 200 11403
+127.0.0.1 - - [17/May/2019:12:04:38 -0300] "GET /casadocodigo/produtos/5 HTTP/1.1" 200 273
