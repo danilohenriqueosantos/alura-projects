@@ -29,7 +29,7 @@
 				aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a class="navbar-brand" href="${s:mvcUrl('HC#index').build() }">Casa do Código</a>
+			<a class="navbar-brand" href="${s:mvcUrl('HC#index').build()}">Casa do Código</a>
 		</div>
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
