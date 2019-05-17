@@ -33,7 +33,7 @@
 
 	<header id="layout-header">
 		<div class="clearfix container">
-			<a href="/" id="logo"> </a>
+			<a href="${s:mvcUrl('HC#index').build()}" id="logo"> </a>
 			<div id="header-content">
 				<nav id="main-nav">
 					<ul class="clearfix">
@@ -49,7 +49,7 @@
 	</header>
 	<nav class="categories-nav">
 		<ul class="container">
-			<li class="category"><a href="http://www.casadocodigo.com.br">Home</a></li>
+			<li class="category"><a href="${s:mvcUrl('HC#index').build()}">Home</a></li>
 			<li class="category"><a href="/collections/livros-de-agile">
 					Agile </a></li>
 			<li class="category"><a href="/collections/livros-de-front-end">
