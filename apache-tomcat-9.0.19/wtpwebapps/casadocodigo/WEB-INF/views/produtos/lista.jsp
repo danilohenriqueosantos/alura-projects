@@ -19,8 +19,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div>
-		<button class="navbar-toggler" type="button" data-toggle="collapse"
-			data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
 			aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -29,10 +28,8 @@
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li><a href="${s:mvcUrl('PC#listar').build()}">Lista de
-						Produtos</a></li>
-				<li><a href="${s:mvcUrl('PC#form').build()}">Cadastro de
-						Produtos</a></li>
+				<li><a href="${s:mvcUrl('PC#listar').build()}">Lista de Produtos</a></li>
+				<li><a href="${s:mvcUrl('PC#form').build()}">Cadastro de Produtos</a></li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
