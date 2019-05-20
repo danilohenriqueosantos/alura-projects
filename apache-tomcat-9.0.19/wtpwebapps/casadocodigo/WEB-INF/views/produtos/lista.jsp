@@ -4,6 +4,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s"%>
+<%@ taglib uri="http://www.springframework.org/security/tags"
+	prefix="security"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,11 +21,12 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-			aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<a class="navbar-brand" href="#">Casa do Código</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="${s:mvcUrl('HC#index').build()}">Casa do Código</a>
 		</div>
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
@@ -31,7 +34,13 @@
 				<li><a href="${s:mvcUrl('PC#listar').build()}">Lista de Produtos</a></li>
 				<li><a href="${s:mvcUrl('PC#form').build()}">Cadastro de Produtos</a></li>
 			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"> <security:authentication property="principal" var="usuario" />
+				Usuário: ${usuario.username}
+				</a></li>
+			</ul>
 		</div>
+		<div>
 		<!-- /.navbar-collapse -->
 		</div>
 	</nav>
